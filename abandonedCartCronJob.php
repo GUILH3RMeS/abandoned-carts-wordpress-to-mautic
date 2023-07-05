@@ -11,10 +11,10 @@ use Mautic\Auth\ApiAuth;
 class MiracleAbandonedCartsCronJob
 {
 	public $settings = array(
-		'userName'   => 'abandonedCarts',
-		'password'   => 'G741258963@'
+		'userName'   => 'username',
+		'password'   => 'password'
 	);
-	public $apiUrl     = "https://flowcrm.miracooldigital.com";
+	public $apiUrl     = "mauticurl";
 	
 	public function abandonedCarts()
 	{
